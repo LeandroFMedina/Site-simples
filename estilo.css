@@ -1,0 +1,77 @@
+.body{
+    background-color:rgba(2, 106, 133, 0.349)
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(0, 99, 129);
+}
+
+.paragrafo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+
+.button{
+    background-color: #016f9bbd;
+    border-radius: 8px;
+    border-color: rgb(240, 240, 240);
+    transition: 0.3s;
+}
+
+.button:hover{
+    color: white;
+    background-color: #015779;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+.h2{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.lista{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.arredondadas{
+    border-radius: 25px;
+}
+
+.tabela{
+    width: 50%;
+    border-collapse:collapse;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    background-color: rgba(4, 82, 112, 0.788);
+}
+
+.tabela th, .tabela td{
+    border: 3px solid;
+    padding: 2px;
+}
+
+.caption{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.link{
+    color: #046fa1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color: white;
+    background-color: #01648b;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
